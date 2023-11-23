@@ -18,8 +18,7 @@ migrate_working_dir/
 
 # Remember to never publicly share your keystore.
 # See https://flutter.dev/docs/deployment/android#reference-the-keystore-from-the-app
-*.keystore
-*.jks
+
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
@@ -47,3 +46,5 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+*.keystore
+*.jks
